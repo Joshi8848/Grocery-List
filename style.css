@@ -1,0 +1,126 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.main-container {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
+}
+
+.input-area {
+  max-width: 60rem;
+  min-height: 25rem;
+  background-color: #256d85;
+}
+
+.text p {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 2rem 0;
+}
+
+.input {
+  padding: 1rem 3rem;
+}
+
+input {
+  outline: none;
+  width: 100%;
+  border-top: none;
+  background-color: #256d85;
+  font-size: 2.5rem;
+  color: white;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+}
+
+.submit {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.submit-button {
+  padding: 1rem 8rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  transition: all 0.4s;
+  background-color: #50fcd4;
+  border: 1px solid #8fe3cf;
+}
+
+.submit-button:hover {
+  background-color: #8fe3cf;
+}
+
+.submit-button:active {
+  transform: scale(0.95);
+}
+
+.product-area {
+  width: 60rem;
+  min-height: 32rem;
+  background-color: #9c9efe;
+  display: grid;
+  grid-template-rows: 6rem 1fr 8rem;
+}
+
+.text-1 {
+  justify-self: center;
+}
+
+.text-1 p {
+  font-size: 2.5rem;
+
+  padding: 0rem 2rem;
+}
+
+.products {
+  padding: 0rem 2rem 2rem 4rem;
+  font-size: 3rem;
+}
+
+.products ion-icon {
+  font-size: 3rem;
+
+  padding: 0 2rem 0 0;
+  color: red;
+}
+
+.products p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear {
+  align-self: end;
+  justify-self: center;
+  padding: 2rem;
+}
+
+.clear-button {
+  padding: 1rem 8rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  transition: all 0.4s;
+  background-color: #50fcd4;
+  border: 1px solid #8fe3cf;
+}
+
+.clear-button:hover {
+  background-color: #8fe3cf;
+}
+
+.clear-button:active {
+  transform: scale(0.95);
+}
